@@ -1,6 +1,6 @@
 
 .gallery { 
-	width: 920px;
+	width: 750px;
 	margin: 0 auto; 
 } 
 
@@ -17,13 +17,31 @@
 }
 
 p {
-    text-indent: 50px;
+    text-indent: 0px;
 }
-
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
 
 .navbar {
   position: relative;
   min-height: 50px;
   margin-bottom: 1px;
   border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+      float: none;
+      display: inline-block;
+   }
+	
 }
